@@ -1,0 +1,68 @@
+.history-wrapper {
+    padding: 30px;
+    background: #f4f6fb;
+    min-height: 100vh;
+  }
+  
+  .history-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #2e7d32;
+  }
+  
+  .empty-history {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: #777;
+  }
+  
+  .history-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+  }
+  
+  .history-card {
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #2e7d32;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .history-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  }
+  
+  .history-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .history-desc {
+    margin: 12px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .history-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #444;
+  }
+  
+  .resolved-badge {
+    background: #e8f5e9;
+    color: #2e7d32;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  

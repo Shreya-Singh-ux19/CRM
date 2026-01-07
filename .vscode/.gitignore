@@ -1,0 +1,25 @@
+# ======================
+# Node / Frontend
+# ======================
+crm-frontend/node_modules/
+crm-frontend/dist/
+crm-frontend/.env
+
+# ======================
+# Java / Backend
+# ======================
+backend/target/
+backend/*.log
+backend/*.class
+
+# ======================
+# IDE / OS
+# ======================
+.idea/
+.vscode/
+.DS_Store
+
+# ======================
+# Environment
+# ======================
+.env

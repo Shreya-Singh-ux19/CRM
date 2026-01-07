@@ -1,0 +1,91 @@
+/* ===== FULL SCREEN BACKGROUND ===== */
+.landing-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      135deg,
+      #1e3c72,
+      #2a5298,
+      #4b6cb7
+    );
+  }
+  
+  /* ===== CARD ===== */
+  .landing-card {
+    background: #ffffff;
+    padding: 50px 60px;
+    border-radius: 18px;
+    text-align: center;
+    max-width: 460px;
+    box-shadow:
+      0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* ===== TITLE ===== */
+  .landing-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #1e3c72;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+  }
+  
+  .landing-title span {
+    color: #2a5298;
+  }
+  
+  /* ===== SUBTITLE ===== */
+  .landing-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 18px;
+  }
+  
+  /* ===== DESCRIPTION ===== */
+  .landing-desc {
+    font-size: 14.5px;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 32px;
+  }
+  
+  /* ===== BUTTON ===== */
+  .landing-btn {
+    padding: 14px 34px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .landing-btn:hover {
+    box-shadow: 0 10px 24px rgba(30, 60, 114, 0.35);
+  }
+  
+  /* ===== FOOTER ===== */
+  .landing-footer {
+    margin-top: 26px;
+    font-size: 12.5px;
+    color: #777;
+    letter-spacing: 0.4px;
+  }
+  
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 500px) {
+    .landing-card {
+      padding: 40px 30px;
+      width: 90%;
+    }
+  
+    .landing-title {
+      font-size: 34px;
+    }
+  }
+  
