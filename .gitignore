@@ -1,4 +1,14 @@
 # ======================
+# OS
+# ======================
+.DS_Store
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+
+# ======================
 # Node / Frontend
 # ======================
 crm-frontend/node_modules/
@@ -11,13 +21,6 @@ crm-frontend/.env
 backend/target/
 backend/*.log
 backend/*.class
-
-# ======================
-# IDE / OS
-# ======================
-.idea/
-.vscode/
-.DS_Store
 
 # ======================
 # Environment
